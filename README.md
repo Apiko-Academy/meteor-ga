@@ -13,6 +13,8 @@ Should you require a different token, just create a new GA instance. However, th
 
 # Usage
 
+Add this pacakge to your Meteor project: `meteor add jss:ga`
+
 With a user and password:
 
 ```javascript
