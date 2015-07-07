@@ -62,6 +62,22 @@ You can specify the type of token by setting 'tokenType', default is 'Bearer'.
 
 See [node-gapitoken](https://github.com/bsphere/node-gapitoken) for easy service account Server to Server authorization flow.
 
+# Event API
+
+* token(err, token)
+* entries(err, entries)
+
+
+# Entry API
+
+* metrics[]
+* dimensions[]
+
+Each array contains objects. These objects contain the following:
+
+* name — The name of the metric or dimension requested
+* value — The value associated. If the value is a Number, it is parsed for you. Otherwise, it will be a string.
+
 # License
 
 This project is under MIT license.
