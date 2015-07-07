@@ -1,0 +1,1 @@
+GAnalytics = Npm.require('googleanalytics');
