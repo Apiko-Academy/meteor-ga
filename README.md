@@ -39,6 +39,7 @@ ga.login(function(err, token) {
 
 If you have already gotten permission from a user, you can simply use the oAuth access token you have:
 
+```javascript
 var ga = new GAnalytics.GA({
   token: 'XXXXXXXXXXXX'
 });
@@ -55,6 +56,7 @@ var options = {
  ga.get(options, function(err, entries) {
   console.log.debug(JSON.stringify(entries));
 });
+```
 
 You can specify the type of token by setting 'tokenType', default is 'Bearer'.
 
